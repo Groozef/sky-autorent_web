@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --color-sky: #0070e0;
+  --color-sky-light: #4da3ff;
+  --color-navy: #0b2545;
+  --color-navy-deep: #061528;
+  --color-blue-50: #eef6ff;
+  --color-blue-100: #d6ebff;
+  --color-surface: #ffffff;
+  --color-muted: #5a6478;
+}
+
+@layer base {
+  * {
+    @apply border-slate-200;
+  }
+
+  html {
+    color-scheme: light;
+  }
+
+  ::selection {
+    @apply bg-[#0070e0]/20 text-[#0b2545];
+  }
+}
+
+/* Dark theme hook — активируется когда появится тёмное лого */
+@media (prefers-color-scheme: dark) {
+  html[data-theme="auto"] {
+    color-scheme: light;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display), system-ui, sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass {
+    @apply border border-white/80 bg-white/85 backdrop-blur-xl;
+  }
+
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply rounded-full bg-[#0070e0] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#005bb8];
+  }
+
+  .btn-secondary {
+    @apply rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-[#0b2545] transition hover:border-[#0070e0]/40 hover:bg-[#eef6ff];
+  }
+
+  .accent-text {
+    @apply text-[#0070e0];
+  }
+
+  .label-upper {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-[#0070e0];
+  }
+}
+
+model-viewer {
+  --poster-color: transparent;
+  background-color: transparent;
+}
+
+model-viewer::part(default-progress-bar) {
+  background-color: #0070e0;
+}

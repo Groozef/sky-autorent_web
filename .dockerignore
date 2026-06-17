@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.gitignore
+tryed
+README.md
+.env
+.env.local
+public/models

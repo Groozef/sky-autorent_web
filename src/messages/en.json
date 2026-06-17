@@ -1,0 +1,147 @@
+{
+  "common": {
+    "currency": "₸"
+  },
+  "meta": {
+    "title": "Sky AutoRent — Premium Car Rental",
+    "description": "Premium car rental. Toyota, Maserati, Mercedes, BMW. No hidden fees.",
+    "tagline": "Drive your journey. Anytime. Anywhere."
+  },
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "contacts": "Contacts",
+    "book": "Book Now",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "hero": {
+    "badge": "Premium Car Rental",
+    "title": "Premium car",
+    "titleAccent": "rental service",
+    "subtitle": "Premium and comfortable car rental. No hidden fees, delivery and 24/7 support. Choose a car from the catalog, submit a request — we'll handle the rest.",
+    "ctaCatalog": "View catalog",
+    "ctaContact": "Submit request",
+    "statCars": "Vehicles",
+    "statSupport": "Support",
+    "statFees": "Hidden fees"
+  },
+  "catalog": {
+    "label": "Catalog",
+    "popular": "Popular vehicles",
+    "all": "Full catalog",
+    "pageTitle": "Cars for rent",
+    "pageDesc": "Choose the right car — from a comfortable Camry to a prestigious Land Cruiser 200. All models are available for booking.",
+    "featured": "Popular",
+    "more": "More vehicles",
+    "perDay": "/ day",
+    "details": "Details",
+    "book": "Book",
+    "back": "← Back to catalog",
+    "specs": "Features",
+    "specYear": "Year",
+    "specCategory": "Category",
+    "specTransmission": "Transmission",
+    "specFuel": "Fuel",
+    "specSeats": "Seats",
+    "specPower": "Power",
+    "call": "Call",
+    "rotateHint": "Rotate the model"
+  },
+  "benefits": {
+    "label": "Benefits",
+    "title": "Why Sky AutoRent",
+    "items": {
+      "0": { "title": "No hidden fees", "text": "Fixed rental price. All terms are transparent from the first call." },
+      "1": { "title": "Car delivery", "text": "We deliver the car to a convenient location — airport, hotel or office." },
+      "2": { "title": "Premium service", "text": "Clean cars, full insurance and 24/7 support throughout the rental." }
+    }
+  },
+  "contacts": {
+    "label": "Contacts",
+    "title": "Get in touch",
+    "pageTitle": "We're here for you",
+    "pageDesc": "Submit a request via the form or contact us directly — we'll respond shortly.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Working hours",
+    "socials": "Social media"
+  },
+  "form": {
+    "title": "Submit a request",
+    "subtitle": "Fill out the form — our manager will contact you shortly",
+    "name": "Your name",
+    "phone": "Phone",
+    "email": "Email",
+    "car": "Vehicle",
+    "carNone": "Not selected",
+    "message": "Message",
+    "namePlaceholder": "John Doe",
+    "phonePlaceholder": "+7 (777) 123-45-67",
+    "emailPlaceholder": "you@example.com",
+    "messagePlaceholder": "Rental dates, preferences...",
+    "submit": "Submit request",
+    "submitting": "Sending...",
+    "success": "Request sent! We will contact you shortly.",
+    "networkError": "Network error. Check your connection and try again.",
+    "submitError": "Failed to submit request"
+  },
+  "footer": {
+    "desc": "Premium car rental. We'll find the perfect car for your trip, business or special occasion.",
+    "nav": "Navigation",
+    "contacts": "Contacts",
+    "socials": "Social media",
+    "rights": "All rights reserved.",
+    "tagline": "Premium car rental"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "desc": "The page you're looking for doesn't exist or has been removed.",
+    "home": "Go home"
+  },
+  "cars": {
+    "fuel": {
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid"
+    },
+    "powerUnit": "{value} hp",
+    "toyota-camry": {
+      "category": "Business",
+      "transmission": "Automatic",
+      "description": "Perfect for city and business trips. Quiet cabin, economical fuel consumption and Toyota's legendary reliability.",
+      "features": ["Climate control", "Rear camera", "Apple CarPlay", "Cruise control"]
+    },
+    "toyota-land-cruiser-200": {
+      "category": "Premium SUV",
+      "transmission": "Automatic",
+      "description": "Legendary off-roader for those who value status, power and absolute comfort on any road.",
+      "features": ["All-wheel drive", "Leather interior", "Panoramic roof", "Massage seats"]
+    },
+    "toyota-camry-hybrid": {
+      "category": "Business",
+      "transmission": "CVT",
+      "description": "Hybrid Camry combines smooth ride, low fuel consumption and modern safety technologies.",
+      "features": ["Hybrid engine", "JBL Audio", "Wireless charging", "Toyota Safety Sense"]
+    },
+    "maserati-ghibli": {
+      "category": "Luxury",
+      "transmission": "Automatic",
+      "description": "Italian elegance and sporty character. For special occasions when every mile matters.",
+      "features": ["Sport mode", "Poltrona Frau leather", "Harman Kardon", "Adaptive suspension"]
+    },
+    "mercedes-e200": {
+      "category": "Premium",
+      "transmission": "Automatic",
+      "description": "Classic German premium — soft suspension, impeccable finish and latest-generation technology.",
+      "features": ["MBUX", "Panoramic roof", "Heated seats", "Driving assistants"]
+    },
+    "bmw-530i": {
+      "category": "Premium",
+      "transmission": "Automatic",
+      "description": "Dynamic sedan for drivers who love to be behind the wheel. Precise steering and rich equipment.",
+      "features": ["Live Cockpit Pro", "LED headlights", "Head-up display", "360° parking sensors"]
+    }
+  }
+}
