@@ -38,7 +38,7 @@ yarn-error.log*
 *.tsbuildinfo
 
 # 3D models — не публикуем на GitHub
-/public/models/
+# /public/models/
 
 # experiments
 /tryed
